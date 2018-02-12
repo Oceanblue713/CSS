@@ -1,0 +1,185 @@
+html, body, div, h1, h2, h3 ,h4, h5, h6, p, a, img, li, aside, footer, nav, section{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: inherit;
+  /*font-family: 'Neuton', serif; */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
+body {
+  background-color: #fefaec;
+  font-family: 'Parisienne', cursive;
+}
+.drinks img{
+  width: 125px;
+  margin: 0 20px;
+}
+
+.hero {
+  height: 600px;
+}
+.hero h1 {
+  color: #cb6f10;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #637056;
+  /*font-family: Montserrat, Arial, Helvetica, sans-serif; */
+}
+
+nav {
+  background-color: black;
+  border-bottom: 5px solid #f1a250;
+  text-align: right;
+}
+nav a:hover{
+  background-color: #d88731;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 2px;
+  display: inline;
+}
+nav a {
+  padding: 6px 20px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size; 1.5em;
+}
+
+footer {
+  background-color: #cb6f10;
+  border-top: 5px solid #f1a250;
+  height 75px;
+}
+footer ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+footer i {
+  color: white;
+  padding: 0 0 2px 10px;
+}
+
+footer a:hover{
+  background-color: #d88731;
+}
+
+.sidebar{
+  background-color:  #d9e9cd;
+  font-size: 1.5em;
+}
+.sidebar ul li:first-child {
+  margin-top: 0;
+}
+
+.sidebar ul li:first-child {
+  margin-top: 0;
+}
+
+.drinks .item {
+  border-top: 1px dotted #637056;
+}
+
+nav li {
+  padding: 2px;
+}
+
+.drinks .item {
+  display: block;
+  margin-top: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.hero{
+  height: 600px;
+  background: url("https://raw.githubusercontent.com/KansasCityWomeninTechnology/CSSCompilerPractice/master/images/hero.jpg") no-repeat center top;
+  background-size: cover;
+}
+.hero h1{
+  font-size: 5em;
+}
+
+.hero h2{
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.hero p{
+  font-size: 1.25em;
+}
+
+.hero-text{
+  padding-top: 125px;
+  width: 50%;
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.drinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.drinks h2{
+  font-size: 3em;
+  margin: 5px;
+}
+
+.drinks .head{
+  font-size: 2em;
+}
+
+.dringks .item{
+  border-top: 1px dotted #637056;
+  padding-top: 10px;
+  margin-bottom: 60px;
+  display: block;
+}
+
+.drinks p {
+  font-size: 1.3em;
+  /*float: left; */
+}
+
+
+.sidebar h2{
+  font-size: 2em;
+  text-align: center;
+  margin: 5px 0;
+}
